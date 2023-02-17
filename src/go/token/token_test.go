@@ -17,6 +17,7 @@ func TestIsIdentifier(t *testing.T) {
 		{"SpaceSuffix", "foo ", false},
 		{"Number", "123", false},
 		{"Keyword", "func", false},
+		{"Apply", "|>", false},
 
 		{"LettersASCII", "foo", true},
 		{"MixedASCII", "_bar123", true},

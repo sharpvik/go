@@ -76,6 +76,7 @@ const (
 	NEQ      // !=
 	LEQ      // <=
 	GEQ      // >=
+	APPLY    // |>
 	DEFINE   // :=
 	ELLIPSIS // ...
 
@@ -185,6 +186,7 @@ var tokens = [...]string{
 	NEQ:      "!=",
 	LEQ:      "<=",
 	GEQ:      ">=",
+	APPLY:    "|>",
 	DEFINE:   ":=",
 	ELLIPSIS: "...",
 
